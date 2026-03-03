@@ -1,0 +1,672 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>School Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!-- Font Awesome -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/9.3.0/mdb.min.css"
+  rel="stylesheet"
+/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+<style>
+    @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+.service-7 {
+  font-family: "Montserrat", sans-serif;
+	color: #8d97ad;
+  font-weight: 300;
+}
+
+.service-7 h1, .service-7 h2, .service-7 h3, .service-7 h4, .service-7 h5, .service-7 h6 {
+  color: #3e4555;
+}
+
+.service-7 .font-weight-medium {
+	font-weight: 500;
+}
+
+.service-7 a {
+	text-decoration: none;
+}
+
+.service-7 .linking {
+	color: #3e4555;
+}
+
+.service-7 .linking:hover {
+	color: #316ce8;
+}
+
+.service-7 .subtitle {
+    color: #8d97ad;
+    line-height: 24px;
+}
+
+.service-7 .btn-info-gradiant {
+	  background: #188ef4;
+    background: -webkit-linear-gradient(legacy-direction(to right), #188ef4 0%, #316ce8 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#188ef4), to(#316ce8));
+    background: -webkit-linear-gradient(left, #188ef4 0%, #316ce8 100%);
+    background: -o-linear-gradient(left, #188ef4 0%, #316ce8 100%);
+    background: linear-gradient(to right, #188ef4 0%, #316ce8 100%);
+}
+
+.service-7 .btn-info-gradiant:hover {
+	  background: #316ce8;
+    background: -webkit-linear-gradient(legacy-direction(to right), #316ce8 0%, #188ef4 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#316ce8), to(#188ef4));
+    background: -webkit-linear-gradient(left, #316ce8 0%, #188ef4 100%);
+    background: -o-linear-gradient(left, #316ce8 0%, #188ef4 100%);
+    background: linear-gradient(to right, #316ce8 0%, #188ef4 100%);
+}
+
+.service-7 .btn-md {
+    padding: 15px 45px;
+    font-size: 16px;
+}
+body {
+  overflow-x: hidden;
+}
+
+p{
+  color: black;
+}
+</style>
+
+
+
+</head>
+  <body>
+<nav class="navbar navbar-expand-lg sticky-top py-3 clean-navbar">
+  <div class="container">
+
+    <!-- Logo -->
+    <a class="navbar-brand" href="index.html">
+      <img src="GBKM-New-Logo1-300x177.png" alt="PSBB Logo" height="65" >
+    </a>
+
+    <!-- Toggle -->
+    <button class="navbar-toggler border-0" type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <!-- Menu -->
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-4">
+
+        <li class="nav-item">
+          <a class="nav-link nav-animate active" href="index.html">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link nav-animate" href="achievement.html">Achievements</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle nav-animate" href="#" role="button" data-bs-toggle="dropdown">
+            Classes
+          </a>
+          <ul class="dropdown-menu shadow border-0">
+            <li><a class="dropdown-item" href="pre-primary.html">Pre-Primary</a></li>
+            <li><a class="dropdown-item" href="primary.html">Primary</a></li>
+            <li><a class="dropdown-item" href="middle school.html">Middle School</a></li>
+            <li><a class="dropdown-item" href="higher secondary.html">Higher Secondary</a></li>
+          </ul>
+        </li>
+
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle nav-animate" href="#" role="button" data-bs-toggle="dropdown">
+            Campus
+          </a>
+          <ul class="dropdown-menu shadow border-0">
+            <li><a class="dropdown-item" href="#">Gerugambakkam</a></li>
+            <li><a class="dropdown-item" href="#">K.K Nagar</a></li>
+            <li><a class="dropdown-item" href="#">T.Nagar</a></li>
+            <li><a class="dropdown-item" href="#">Siruseri</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link nav-animate" href="dean's message.html">Dean's Message</a>
+        </li>
+
+      </ul>
+
+      <!-- Contact Button -->
+      <div class="d-flex">
+        <a href="contact page.html" class="btn contact-btn px-4">
+          Contact Us
+        </a>
+      </div>
+
+    </div>
+  </div>
+</nav>
+
+<style>
+/* White Navbar */
+.clean-navbar {
+  background-color: #ffffff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+}
+
+/* Menu links */
+.nav-link {
+  color: #0c243c !important;
+  font-weight: 500;
+  position: relative;
+  transition: 0.3s;
+}
+
+/* Hover underline */
+.nav-animate::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  background-color: #0c243c;
+  transition: 0.3s;
+}
+
+.nav-animate:hover::after {
+  width: 100%;
+}
+
+/* Contact Button */
+.contact-btn {
+  background-color: #0c243c;
+  color: #ffffff;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.contact-btn:hover {
+  background-color: #ffc107;
+  color: #0c243c;
+}
+</style>
+
+
+
+
+
+
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://psbbmillenniumschool.org/wp-content/uploads/2025/09/gerugambakkam-1-e1758005257626.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Financial-programme-scaled.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="st.avif" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<section class="py-5">
+	<div class="container">
+		<div class="row align-items-center gx-4">
+			<div class="col-md-5">
+				<div class="ms-md-2 ms-lg-5"><img class="img-fluid rounded-3" src="logo2.avif"></div>
+			</div>
+			<div class="col-md-6 offset-md-1">
+				<div class="ms-md-2 ms-lg-5">
+					<span class="text-muted">Our Story</span>
+					<h2 class="display-5 fw-bold">About Us</h2>
+					<p class="lead">One such individual is Smt.Rajalakshmi Parthasarathy popularly known as Mrs. YGP (Padmashree Dr. (Smt.) Y.G.Parthasarathy) and the institution she built brick by brick is Padma Seshadri Bala Bhavan (PSBB) which is affiliated to the Central Board of Secondary Education.
+
+​</p>
+					<p class="lead mb-0">A legend in Education,   an art Connoisseur, a visionary in Progressive Practices of schooling,and was  the Cultural Wing of the PSBB Schools to promote art & culture.
+
+​</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<div class="py-5 service-7">
+    <div class="container">
+        <!-- Row  -->
+        <div class="row">
+            <!-- Column -->
+            <div class="col-md-4 mb-4">
+                <div class="">
+                    <img class="rounded img-fluid" src="i.jpg" alt="wrappixel kit" />
+                    <div class="mt-4">
+                        <h6 class="font-weight-medium">Outstanding Academic Excellence</h6>
+                        <p class="mt-3">Our students have demonstrated exceptional dedication and hard work in the Class 12 Board Examinations 2024–2025.
+With remarkable scores and multiple centums, they have set a new benchmark of excellence.
+Their achievement reflects discipline, perseverance, and academic strength.
+We proudly celebrate their success.</p>
+                        <a href="javascript:void(0)" class="linking">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Column -->
+            <div class="col-md-4 mb-4">
+                <div class="">
+                    <img class="rounded img-fluid" src="ii.jpg" alt="wrappixel kit" />
+                    <div class="mt-4">
+                        
+                        <h6 class="font-weight-medium">Top Achievers Spotlight</h6>
+                        <p class="mt-3">These high performers have secured outstanding marks across streams including Science, Commerce, and Computer Science.
+Their commitment to learning and consistent performance has earned them top ranks.
+Each achievement represents focus, determination, and confidence.
+They are an inspiration to future aspirants.</p>
+                        <a href="javascript:void(0)" class="linking">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Column -->
+            <div class="col-md-4 mb-4">
+                <div class="">
+                    <img class="rounded img-fluid" src="iii.jpg" alt="wrappixel kit" />
+                    <div class="mt-4">
+                        <h6 class="font-weight-medium">100% Success & Future Ready</h6>
+                        <p class="mt-3"> We are proud to announce a 100% pass result this academic year.
+Our students have excelled in Mathematics, Science, Social Studies, and other core subjects.
+This success highlights the strong academic foundation and guidance provided.
+The future looks bright and full of opportunities.</p>
+                        <a href="javascript:void(0)" class="linking">Learn More</a>
+                    </div>
+                </div>
+            </div>
+						<div class="col-md-12 mt-3 text-center">
+                <a class="btn btn-info-gradiant btn-md border-0 text-white"><span>View Details</span></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<section>
+  <div class="row d-flex justify-content-center">
+    <div class="col-md-10 col-xl-8 text-center">
+      <h3 class="mb-4">Parent Speak</h3>
+      <p class="mb-4 pb-2 mb-md-5 pb-md-0">
+        We are proud to work closely with parents to ensure every child receives the best academic support and guidance. Through regular interaction, feedback, and collaboration, we create a positive learning environment that encourages growth, creativity, and excellence.
+      </p>
+    </div>
+  </div>
+
+  <div class="row text-center">
+    <div class="col-md-4 mb-5 mb-md-0">
+      <div class="d-flex justify-content-center mb-4">
+        <img src="parent.webp"
+          class="rounded-circle shadow-1-strong" width="150" height="150" />
+      </div>
+      <h5 class="mb-3">Mother of Vihan (UKG-D)</h5>
+      <h6 class="text-primary mb-3">Parent Testimonial</h6>
+      <p class="px-xl-3">
+        <i class="fas fa-quote-left pe-2"></i>The school provides a nurturing and supportive environment for my child.
+Teachers are caring, patient, and always encourage learning with confidence.
+I can clearly see positive growth in academics and overall development.
+We are truly happy to be a part of this institution.
+      </p>
+      <ul class="list-unstyled d-flex justify-content-center mb-0">
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="fas fa-star-half-alt fa-sm text-warning"></i>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4 mb-5 mb-md-0">
+      <div class="d-flex justify-content-center mb-4">
+        <img src="parent2.webp"
+          class="rounded-circle shadow-1-strong" width="150" height="150" />
+      </div>
+      <h5 class="mb-3">Mother of Avantika Mohta (11-A)</h5>
+      <h6 class="text-primary mb-3">Academic Feedback</h6>
+      <p class="px-xl-3">
+        <i class="fas fa-quote-left pe-2"></i>The dedication and commitment of the faculty are truly commendable.
+My daughter has shown remarkable improvement in both academics and confidence.
+Regular communication and guidance from teachers make a big difference.
+We sincerely appreciate the school’s efforts.
+      </p>
+      <ul class="list-unstyled d-flex justify-content-center mb-0">
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4 mb-0">
+      <div class="d-flex justify-content-center mb-4">
+        <img src="rent3.webp"
+          class="rounded-circle shadow-1-strong" width="150" height="150" />
+      </div>
+      <h5 class="mb-3">Father of Dhanush (7-B)</h5>
+      <h6 class="text-primary mb-3">Parent Appreciation</h6>
+      <p class="px-xl-3">
+        <i class="fas fa-quote-left pe-2"></i>This school maintains high academic standards along with strong moral values.
+The learning atmosphere motivates students to achieve their best.
+The staff is supportive and always approachable when needed.
+We are proud to see our child grow here
+      </p>
+      <ul class="list-unstyled d-flex justify-content-center mb-0">
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="far fa-star fa-sm text-warning"></i>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<h1 style="text-align: center;padding-top: 50px; padding-bottom: 20px;">FAQs</h1>
+<div class="accordion" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+        Why is PSBB Millennium School Chennai considered one of the top schools in Chennai?
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+      <div class="accordion-body">
+      <strong> The PSBB Millennium School in Chennai is frequently ranked among the city’s top schools because it offers a blend of strong academics, holistic development, and modern teaching methods. It follows the CBSE curriculum with an emphasis on conceptual learning, critical thinking, and real-world application, not just rote memorization. This prepares students well for board exams and future challenges.</strong>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+       Is PSBB Millennium School Chennai affiliated to CBSE?
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+      <div class="accordion-body">
+        <strong>It follows the CBSE curriculum from primary classes through higher secondary, which means students study the nationwide standard syllabus and appear for CBSE board exams in Classes X and XII.
+
+This affiliation ensures that the school follows recognized academic standards and assessment methods set by CBSE, making it a credible choice for quality education in Chennai.</strong>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+        What makes PSBB Millennium School Chennai different from other CBSE schools in Chennai?
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+      <div class="accordion-body">
+        <strong>PSBB Millennium School Chennai stands out from other CBSE schools in the city because of its strong focus on holistic, child-centred education that goes beyond textbook learning. The school combines academic excellence with co-curricular opportunities in sports, arts, music, debates, and technology, helping students develop confidence, creativity, and leadership skills. With experienced and caring teachers, value-based education, modern infrastructure, and an emphasis on critical thinking and real-world readiness, the institution creates a supportive environment that nurtures both academic success and overall personality development.</strong>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefour" aria-expanded="false" aria-controls="panelsStayOpen-collapsefour">
+      How does PSBB Millennium School Chennai integrate technology into education?
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapsefour" class="accordion-collapse collapse">
+      <div class="accordion-body">
+        <strong>PSBB Millennium School Chennai integrates technology into education by using smart classrooms, digital learning tools, and technology-enhanced activities that support modern teaching and learning. Students regularly use interactive displays, educational software, and online resources to deepen understanding, do research, and collaborate on projects. Technology is also woven into subjects like science, math, and languages to make lessons more engaging and relevant, while teachers use digital platforms for assessments, feedback, and tracking student progress. This helps students become comfortable with technology, improves digital literacy, and prepares them for future academic and career demands.</strong>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefive" aria-expanded="false" aria-controls="panelsStayOpen-collapseTfive">
+      Are there transport facilities for students at PSBB Millennium School Chennai?
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapsefive" class="accordion-collapse collapse">
+      <div class="accordion-body">
+        <strong>Yes — PSBB Millennium School Chennai typically provides transport facilities for students to help them travel between home and school safely and conveniently.
+
+They usually operate a bus service covering several routes across the city, making daily commuting easier for parents and ensuring students reach school and return home on time under supervision.</strong>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<section class="py-5">
+	<div class="container">
+		<div class="row justify-content-center text-center mb-3 mb-lg-5">
+			<div class="col-lg-8 col-xxl-7">
+				<span class="text-muted">Let's Talk</span>
+				<h2 class="display-5 fw-bold mb-3">Contact Us</h2>
+				<p class="lead">"For inquiries regarding admissions, academic programs, or campus tours, please contact our administrative office using the form below. Our team will get back to you as soon as possible."</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+			<form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="63f2a5ad-51f3-432f-84ad-6b53497077a9">
+					<div class="row">
+						<div class="col-12">
+							<div class="mb-3">
+								<input class="form-control bg-light" placeholder="Full name" type="text" name="Name">
+							</div>
+						</div>
+						<div class="col-12">
+							<div class="mb-3">
+								<input class="form-control bg-light" placeholder="Email address" type="email" name="email">
+							</div>
+						</div>
+						<div class="col-12">
+							<div class="mb-3">
+								<textarea class="form-control bg-light" placeholder="Your message" name="message" rows="5"></textarea>
+							</div>
+						</div>
+						<div class="col-4">
+							<div class="d-grid">
+								<button class="btn btn-primary" type="submit">Send message</button>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="col-md-6">
+				<div class="mt-4 mt-md-0"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248862.77983784856!2d80.02392348197091!3d12.941048012013907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5266d9f80790d3%3A0xab85f795b0d229d0!2sPadma%20Seshadri%20Bala%20Bhavan%20Senior%20Secondary%20School!5e0!3m2!1sen!2sin!4v1772435342311!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+				<div class="mt-3">
+					<p>"Located in the heart of the city, our campus is easily accessible via public transport and major roadways."</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="py-5">
+	<div class="container">
+		<div class="row justify-content-center text-center">
+			<div class="col-lg-8">
+				<span class="text-muted">For Admission</span>
+				<h2 class="fw-bold py-2">Join a Community of Excellence – Admissions for 2026-27 Are Now Open.
+ Secure your child's future with a curriculum designed to inspire, challenge, and empower.</h2><a class="btn btn-primary me-2" href="">Learn more</a> <a class="btn btn-outline-primary" href="">Apply Now</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<footer class="pt-5 pb-3 text-white" style="background-color: #0c243c;">
+  <div class="container">
+
+    <div class="row pb-4">
+
+      <!-- Logo + Address -->
+      <div class="col-12 col-lg-3 mb-4">
+        <img src="GBKM-New-Logo1-300x177.png" class="img-fluid mb-3" width="220" alt="PSBB Logo">
+        <p class="small mb-1">17, Thirumalai Road</p>
+        <p class="small mb-1">T. Nagar, Chennai</p>
+        <p class="small mb-1">Tel: +91 93607 31765</p>
+        <p class="small mb-0">
+          <a href="#" class="text-decoration-none text-warning">psbbkkn@psbbschools.ac.in</a>
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-6 col-lg-2 mb-4">
+        <h5 class="fw-bold mb-3 text-warning">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="#" class="footer-link">Home</a></li>
+          <li class="mb-2"><a href="#" class="footer-link">About</a></li>
+          <li class="mb-2"><a href="#" class="footer-link">Admission</a></li>
+          <li><a href="#" class="footer-link">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Useful Info -->
+      <div class="col-6 col-lg-2 mb-4">
+        <h5 class="fw-bold mb-3 text-warning">Useful Info</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="#" class="footer-link">How it Works</a></li>
+          <li class="mb-2"><a href="#" class="footer-link">FAQ</a></li>
+          <li><a href="#" class="footer-link">Contacts</a></li>
+        </ul>
+      </div>
+
+      <!-- Support -->
+      <div class="col-6 col-lg-2 mb-4">
+        <h5 class="fw-bold mb-3 text-warning">Support</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="#" class="footer-link">Counselling</a></li>
+          <li class="mb-2"><a href="#" class="footer-link">Help Desk</a></li>
+          <li><a href="#" class="footer-link">Grievance Redressal</a></li>
+        </ul>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="col-12 col-lg-3">
+        <h5 class="fw-bold mb-3 text-warning">Join Our Community</h5>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Email address">
+          <button class="btn btn-warning fw-semibold">Subscribe</button>
+        </div>
+        <p class="small text-light">
+          Subscribe to our monthly newsletter for latest campus news and events.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="d-lg-flex justify-content-between align-items-center border-top pt-3 mt-3">
+
+      <div class="small text-light mb-2 mb-lg-0">
+        © 2026 PSBB Chennai. All rights reserved.
+      </div>
+
+      <!-- Social Icons -->
+      <div>
+        <a href="https://www.facebook.com/psbbmillenniumschool.gbkm/" class="social-icon me-3"><i class="bi bi-facebook"></i></a>
+        <a href="https://x.com/thepsbbmsomr" class="social-icon me-3"><i class="bi bi-twitter"></i></a>
+        <a href="https://www.instagram.com/thepsbbmillenniumcbe.official/" class="social-icon"><i class="bi bi-instagram"></i></a>
+      </div>
+
+    </div>
+
+  </div>
+</footer>
+
+<style>
+.footer-link {
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-link:hover {
+  color: #ffc107; /* gold highlight */
+  padding-left: 5px;
+}
+
+.social-icon {
+  color: #ffc107;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.social-icon:hover {
+  color: #ffffff;
+}
+</style>
+
+<!-- MDB -->
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/9.3.0/mdb.umd.min.js"
+></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</div>
+</body>
+</html>

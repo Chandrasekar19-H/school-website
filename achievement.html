@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>School Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!-- Font Awesome -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/9.3.0/mdb.min.css"
+  rel="stylesheet"/>
+ 
+ 
+</head>
+ <body>
+     
+<nav class="navbar navbar-expand-lg sticky-top py-3 clean-navbar">
+  <div class="container">
+
+    <!-- Logo -->
+    <a class="navbar-brand" href="index.html">
+      <img src="GBKM-New-Logo1-300x177.png" alt="PSBB Logo" height="65" >
+    </a>
+
+    <!-- Toggle -->
+    <button class="navbar-toggler border-0" type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <!-- Menu -->
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-4">
+
+        <li class="nav-item">
+          <a class="nav-link nav-animate active" href="index.html">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link nav-animate" href="achievement.html">Achievements</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle nav-animate" href="#" role="button" data-bs-toggle="dropdown">
+            Classes
+          </a>
+          <ul class="dropdown-menu shadow border-0">
+            <li><a class="dropdown-item" href="pre-primary.html">Pre-Primary</a></li>
+            <li><a class="dropdown-item" href="primary.html">Primary</a></li>
+            <li><a class="dropdown-item" href="middle school.html">Middle School</a></li>
+            <li><a class="dropdown-item" href="higher secondary.html">Higher Secondary</a></li>
+          </ul>
+        </li>
+
+       <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle nav-animate" href="#" role="button" data-bs-toggle="dropdown">
+            Campus
+          </a>
+          <ul class="dropdown-menu shadow border-0">
+            <li><a class="dropdown-item" href="#">Gerugambakkam</a></li>
+            <li><a class="dropdown-item" href="#">K.K Nagar</a></li>
+            <li><a class="dropdown-item" href="#">T.Nagar</a></li>
+            <li><a class="dropdown-item" href="#">Siruseri</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link nav-animate" href="dean's message.html">Dean's Message</a>
+        </li>
+
+      </ul>
+
+      <!-- Contact Button -->
+      <div class="d-flex">
+        <a href="contact page.html" class="btn contact-btn px-4">
+          Contact Us
+        </a>
+      </div>
+
+    </div>
+  </div>
+</nav>
+
+<style>
+/* White Navbar */
+.clean-navbar {
+  background-color: #ffffff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+}
+
+/* Menu links */
+.nav-link {
+  color: #0c243c !important;
+  font-weight: 500;
+  position: relative;
+  transition: 0.3s;
+}
+
+/* Hover underline */
+.nav-animate::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  background-color: #0c243c;
+  transition: 0.3s;
+}
+
+.nav-animate:hover::after {
+  width: 100%;
+}
+
+/* Contact Button */
+.contact-btn {
+  background-color: #0c243c;
+  color: #ffffff;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.contact-btn:hover {
+  background-color: #ffc107;
+  color: #0c243c;
+}
+</style>
+
+
+<section class="breadcrumb-section d-flex align-items-center text-white">
+
+  <div class="container text-center position-relative">
+    <h1 class="fw-bold display-5 mb-3">Our Achievements</h1>
+
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb justify-content-center mb-0">
+        <li class="breadcrumb-item">
+          <a href="index.html" class="text-white text-decoration-none">Home</a>
+        </li>
+        <li class="breadcrumb-item active text-warning" aria-current="page">
+          Achievements
+        </li>
+      </ol>
+    </nav>
+  </div>
+
+</section>
+
+<style>
+.breadcrumb-section {
+  height: 350px;
+  background: linear-gradient(rgba(12,36,60,0.75), rgba(12,36,60,0.75)),
+              url('DSC07015-scaled.jpg') center/cover no-repeat;
+  position: relative;
+}
+
+/* Breadcrumb text style */
+.breadcrumb-item a:hover {
+  color: #ffc107 !important;
+}
+
+.breadcrumb-item.active {
+  font-weight: 600;
+}
+</style>
+
+
+<section class="py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <div class="col-md-6">
+        <img src="academic.jpg" class="img-fluid rounded shadow" alt="Achievement">
+      </div>
+
+      <div class="col-md-6">
+        <h2 class="fw-bold text-primary">Academic Excellence</h2>
+        <p>PSBB Chennai students consistently achieve top ranks in board examinations with outstanding academic results every year.</p>
+        <ul>
+          <li>100% Pass Percentage</li>
+          <li>State Rank Holders</li>
+          <li>International Olympiad Winners</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <div class="col-md-6">
+        <img src="sports1.jpg" class="img-fluid rounded" alt="">
+      </div>
+
+      <div class="col-md-6">
+        <h2 class="fw-bold text-success">Sports Achievements</h2>
+        <p>Our students excel in national and state-level sports competitions across various disciplines.</p>
+        <div class="row">
+          <div class="col-6">
+            <h4 class="text-primary">25+</h4>
+            <p>State Titles</p>
+          </div>
+          <div class="col-6">
+            <h4 class="text-primary">10+</h4>
+            <p>National Medals</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="py-5">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <div class="col-md-6">
+        <img src="culutural.jpg" class="img-fluid rounded" alt="">
+      </div>
+
+      <div class="col-md-6">
+        <div class="card shadow border-0">
+          <div class="card-body">
+            <h2 class="card-title text-danger fw-bold">Cultural Excellence</h2>
+            <p class="card-text">
+              PSBB Chennai students shine in music, dance, drama, and fine arts at inter-school and national events.
+            </p>
+            <a href="#" class="btn btn-outline-danger">Read More</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <div class="col-md-6 order-md-2">
+        <img src="science1.jpg" class="img-fluid rounded shadow" alt="">
+      </div>
+
+      <div class="col-md-6 order-md-1">
+        <h2 class="fw-bold text-warning">Innovation & Science</h2>
+        <p>
+          Students actively participate in science fairs, robotics competitions, and innovation challenges.
+        </p>
+        <ul class="list-group">
+          <li class="list-group-item">National Science Fair Winners</li>
+          <li class="list-group-item">Robotics Championship Finalists</li>
+          <li class="list-group-item">STEM Innovation Awards</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="py-5">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <div class="col-md-6 position-relative">
+        <img src="leader.jpg" class="img-fluid rounded" alt="">
+        <div class="position-absolute bottom-0 start-0 bg-dark bg-opacity-75 text-white p-3 rounded-end">
+          <h5>Top Ranked School</h5>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <h2 class="fw-bold text-info">Community Leadership</h2>
+        <p>
+          PSBB Chennai encourages social responsibility through community service and leadership programs.
+        </p>
+        <button class="btn btn-info text-white">Explore Programs</button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <div class="col-md-6">
+        <img src="pp.jpg" class="img-fluid rounded shadow" alt="">
+      </div>
+
+      <div class="col-md-6">
+        <h2 class="fw-bold text-secondary">Global Recognition</h2>
+        <p>Recognized among the top institutions in India for excellence in holistic education.</p>
+
+        <div class="d-flex mb-3">
+          <div class="me-3 text-primary fs-3">🏆</div>
+          <div>
+            <h6 class="mb-0">International Awards</h6>
+            <small>Global Education Summit Recognition</small>
+          </div>
+        </div>
+
+        <div class="d-flex">
+          <div class="me-3 text-success fs-3">🌍</div>
+          <div>
+            <h6 class="mb-0">Exchange Programs</h6>
+            <small>Collaborations with international schools</small>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+ 
+
+<footer class="pt-5 pb-3 text-white" style="background-color: #0c243c;">
+  <div class="container">
+
+    <div class="row pb-4">
+
+      <!-- Logo + Address -->
+      <div class="col-12 col-lg-3 mb-4">
+        <img src="GBKM-New-Logo1-300x177.png" class="img-fluid mb-3" width="220" alt="PSBB Logo">
+        <p class="small mb-1">17, Thirumalai Road</p>
+        <p class="small mb-1">T. Nagar, Chennai</p>
+        <p class="small mb-1">Tel: +91 93607 31765</p>
+        <p class="small mb-0">
+          <a href="#" class="text-decoration-none text-warning">psbbkkn@psbbschools.ac.in</a>
+        </p>
+      </div>
+      
+      <!-- Quick Links -->
+      <div class="col-6 col-lg-2 mb-4">
+        <h5 class="fw-bold mb-3 text-warning">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="#" class="footer-link">Home</a></li>
+          <li class="mb-2"><a href="#" class="footer-link">About</a></li>
+          <li class="mb-2"><a href="#" class="footer-link">Admission</a></li>
+          <li><a href="#" class="footer-link">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Useful Info -->
+      <div class="col-6 col-lg-2 mb-4">
+        <h5 class="fw-bold mb-3 text-warning">Useful Info</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="#" class="footer-link">How it Works</a></li>
+          <li class="mb-2"><a href="#" class="footer-link">FAQ</a></li>
+          <li><a href="#" class="footer-link">Contacts</a></li>
+        </ul>
+      </div>
+
+      <!-- Support -->
+      <div class="col-6 col-lg-2 mb-4">
+        <h5 class="fw-bold mb-3 text-warning">Support</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="#" class="footer-link">Counselling</a></li>
+          <li class="mb-2"><a href="#" class="footer-link">Help Desk</a></li>
+          <li><a href="#" class="footer-link">Grievance Redressal</a></li>
+        </ul>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="col-12 col-lg-3">
+        <h5 class="fw-bold mb-3 text-warning">Join Our Community</h5>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Email address">
+          <button class="btn btn-warning fw-semibold">Subscribe</button>
+        </div>
+        <p class="small text-light">
+          Subscribe to our monthly newsletter for latest campus news and events.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="d-lg-flex justify-content-between align-items-center border-top pt-3 mt-3">
+
+      <div class="small text-light mb-2 mb-lg-0">
+        © 2026 PSBB Chennai. All rights reserved.
+      </div>
+
+      <!-- Social Icons -->
+      <div>
+        <a href="#" class="social-icon me-3"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="social-icon me-3"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+      </div>
+
+    </div>
+
+  </div>
+</footer>
+
+<style>
+.footer-link {
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-link:hover {
+  color: #ffc107; /* gold highlight */
+  padding-left: 5px;
+}
+
+.social-icon {
+  color: #ffc107;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.social-icon:hover {
+  color: #ffffff;
+}
+</style>
+
+<!-- MDB -->
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/9.3.0/mdb.umd.min.js"
+></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
